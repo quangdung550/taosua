@@ -1,1 +1,30 @@
 
+{
+  "_ghi_chu": "File này lưu trữ cấu hình TRƯỚC VÀ SAU KHI DEPLOY. Bạn có thể điền sẵn ID phòng vào pre_setup trước khi deploy để bot tự vào room ngay khi online mà không cần gõ lại lệnh!",
+  "voice_targets": {
+    "1495362331163754589": 1544769375624765440
+  },
+  "rule_channels": {
+    "1495362331163754589": {
+      "channel_id": 1544769375624765440,
+      "user_id": 1264245404287897711,
+      "user_name": "Gin"
+    }
+  },
+  "pre_setup": {
+    "default_voice_channel_id": 1544769375624765440,
+    "default_rule_channel_id": 1544769375624765440,
+    "default_guild_id": 1495362331163754589,
+    "excluded_user_ids": [
+      1559538651979972779,
+      1264245404287897711,
+      1426024743282147358
+    ]
+  },
+  "settings": {
+    "self_deaf": true,
+    "keepalive_silence": false,
+    "auto_reconnect": true,
+    "reconnect_interval_seconds": 30
+  }
+}
